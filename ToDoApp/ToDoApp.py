@@ -130,7 +130,7 @@ if __name__ == "__main__":
                 _id = int(input("Введите ID записи, которую хотите прочитать: "))
                 beautiful_conclusion(read_todo(_id))
             case "read_all": 
-                Commands.beautiful_conclusion(read_todo_all())
+                beautiful_conclusion(read_todo_all())
             case "delete": 
                 _id = int(input("Введите ID записи, которую хотите удалить: "))
                 beautiful_conclusion(delete_todo(_id))
